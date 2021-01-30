@@ -1,6 +1,8 @@
 # MechaCar_Statistical_Analysis
 ## Linear Regression to predict MPG
-![Linear Regression](Statics\Linear_Regression_MPG.png)
+![Linear Regression](/Statics/Linear_Regression_MPG.png)
+
+
 
 ### Which variables/coefficients provided a non-random amount of variance to the mpg values in the dataset?
 The following variables are based on the P-value score which are unlikely to provide an unintended change: the Intercept, Vehicle Length and Ground Clearance. The Intercept has a high level of statistical meaning, which in turn means there are other changes and aspects that contribute to the variation in mpg.
