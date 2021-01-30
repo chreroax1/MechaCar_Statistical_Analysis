@@ -16,14 +16,17 @@ The multiple R-Squared value of 0.7149 indicates that it is an effective model t
 
 ### Does the current manufacturing data meet this design specification for all manufacturing lots in total and each lot individually? Why or why not?
 
-![Total Summary] (/Statics/total_summary.png)
+![Total Summary](/Statics/total_summary.png)
+
 The variance of the suspension coils meets the design specifications as seen in the Total Summary data.
  
 ![Linear Regression](/Statics/lot_summary.png)
+
 The Lot Summary data we see that both Lots 1 and 2 have very low variance but Lot 3, with a variance of over 170, falls outside the requirement.
 
 ## T-Tests on Suspension Coils
-![T-Test-Total](/Statics/T-Test_Suspension.png)
+![T-Test](/Statics/T-Tests_Suspension.png)
+
 The Suspension Coil T-test is significant and we would not reject the null hypothesis (p-value .06028.)
 Each lot, the p-value is less than 0.05, therefore we would reject our Null Hypothesis.
 
